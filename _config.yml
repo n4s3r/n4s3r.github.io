@@ -30,7 +30,12 @@ github_username: n4s3r
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
+languages:
+  - en
+  - es
+  - cat
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
