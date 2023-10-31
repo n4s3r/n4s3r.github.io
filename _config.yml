@@ -23,12 +23,13 @@ email: n4s3rSEC@proton.me
 description: Hi! My name is N4s3r, and I'm learning cybersecurity. I love red team. Thank you for visiting my website, enjoy it! :D
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: none
+# twitter_username: none
 github_username: n4s3r
 
 # Build settings
-theme: Hacker
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have oneplugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
