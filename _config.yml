@@ -27,7 +27,7 @@ twitter_username: none
 github_username: n4s3r
 
 # Build settings
-theme: hacker
+theme: Hacker
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
