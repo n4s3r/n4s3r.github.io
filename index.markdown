@@ -4,13 +4,6 @@
 
 layout: default
 ---
-{% for lang in site.languages %}
-  {% if forloop.index0 == 0 %}
-    <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
-  {% else %}
-    |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
-  {% endif %}
-{% endfor %}
 
 <!DOCTYPE html>
 <html>
@@ -19,6 +12,14 @@ layout: default
 </head>
 <body>
     <!-- Contenido de la página de inicio -->
+{% for lang in site.languages %}
+  {% if forloop.index0 == 0 %}
+    <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
+  {% else %}
+    |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
+  {% endif %}
+{% endfor %}
+
      {{ content }}
 </body>
 </html>
