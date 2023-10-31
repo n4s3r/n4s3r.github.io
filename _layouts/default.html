@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+<title>{{ page.title }}</title>
+    {% feed_meta %}
 
 {% seo %}
   </head>
@@ -28,7 +30,8 @@
         </section>
       </div>
     </header>
-
+    {% include navigation.html %}
+    {{ content }}
     <div class="container">
       <section id="main_content">
         {{ content }}
