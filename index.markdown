@@ -11,5 +11,6 @@ layout: default
 </head>
 <body>
     <!-- Contenido de la página de inicio -->
+     {{ content }}
 </body>
 </html>
