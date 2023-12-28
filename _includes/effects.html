@@ -1,0 +1,26 @@
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+window.addEventListener('scroll', function () {
+    const parallax = document.querySelector('.parallax');
+    const scrolled = window.scrollY;
+    parallax.style.transform = 'translateY(' + scrolled * 0.4 + 'px)';
+});
+
+const box = document.getElementById('color-box');
+
+box.addEventListener('click', function () {
+    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    this.style.backgroundColor = randomColor;
+});
+
+</script>
+<noscript>Please, enable javascript to enjoy the visual effects</noscript>

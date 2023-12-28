@@ -5,7 +5,7 @@ title: My specific habilities
 # My specific habilities
 
 I know this languages: 
-* Programing: Python, Javascript, PHP, Bash and Batch. And I'm currently learning Java.
+* Programing: Python, Javascript, PHP, Bash, Batch, Java and Typescript.
 * Of query: SQL, XPATH
 * Markup: HTML, XML, Markdown
 * XML-related: XSD, XSLT
