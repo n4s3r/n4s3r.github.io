@@ -19,3 +19,6 @@ I've finished this courses:
 
 I'm currently doing this studies:
 * [Bachelor's Degree in Cybersecurity](https://www.unir.net/ingenieria/grado-ciberseguridad/ "Go to UNIR")
+
+I've this certificates:
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c035f01a-db5e-46da-9a8e-e6862947bd25" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
