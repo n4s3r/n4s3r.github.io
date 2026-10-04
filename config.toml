@@ -1,8 +1,8 @@
-baseURL = "https://anonfaded.github.io/hugo-winston-cyber/"
+baseURL = "https://n4s3r.github.io"
 languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
-title = "// F4dS3c Blog"
+title = "// n4s3rSEC website"
 
 [pagination]
 pagerSize = 3
@@ -18,7 +18,7 @@ pygmentsUseClasses = true
  
 [params]
   google_analytics_id = ""
-  twitter_handle = "@anon_faded"
+#  twitter_handle = ""
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
   showIntroContentOnHomepage = true # the description below the title on home page
@@ -33,7 +33,7 @@ pygmentsUseClasses = true
   # ---------
   # highlightColor = '#7b16ff'
   # baseColor = "#ffffff"
-  # baseOffsetColor = "#eaeaea"
+  #  baseOffsetColor = "#03A062"
   # headingColor = "#1c1b1d"
   # textColor = "#4e5157"
   # dotColor = "#7b16ff"
@@ -44,13 +44,13 @@ pygmentsUseClasses = true
   fontFamilyParagraph = "Ubuntu"
   fontFamilyMonospace = "Ubuntu Mono"
   showAboutPage = false  # Toggle to control About page visibility
-  github_username = "anonfaded"
-  kofi_username = "fadedx"
-  discord_invite = "kvAZvdkuuN"
-  email = "fadedhood@proton.me"
-  repo_name = "hugo-winston-cyber"  # for GitHub stars badge
-  footer_text = ":: F4dS3c Blog"  # Add this line for custom footer text
-  footer_year = "2024-2025"  # Static year for footer
+  github_username = "n4s3r"
+#  kofi_username = ""
+#  discord_invite = ""
+  email = "n4s3rSEC@proton.me"
+  repo_name = "n4s3r"  # for GitHub stars badge
+  footer_text = ":: n4s3rSEC Blog"
+  footer_year = "2026"  # Static year for footer
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
@@ -71,6 +71,16 @@ pygmentsUseClasses = true
     identifier = "blog"
     weight = 2
     url = "/posts/"
+[[menu.main]]  
+  name = "OSINT"  
+  identifier = "osint"  
+  weight = 3  
+  url = "/osint/"
+[[menu.main]]  
+  name = "Projects"  
+  identifier = "Projects"  
+  weight = 3  
+  url = "/projects/"
   [[menu.main]]
     name = "About"
     identifier = "about"

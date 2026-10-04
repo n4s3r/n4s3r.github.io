@@ -1,10 +1,10 @@
 :root {
   --base-color: #000000 !important;  /* Full Black */
   --base-offset-color: #141414 !important;  /* Keeps slight contrast for sections */
-  --highlight-color: #ED2939 !important;  /* Vibrant Red */
+  --highlight-color: #00FF41 !important;  /* Vibrant Red */
   --heading-color: #EAEAEA !important;  /* Soft White */
   --text-color: #BBBBBB !important;  /* Light Gray for better readability */
-  --dot-color: #ED2939 !important;  /* Matches Highlight */
+  --dot-color: #00FF41 !important;  /* Matches Highlight */
   --code-bg: #121212 !important;  /* Darker Code Background for contrast */
 }
 
@@ -1328,3 +1328,12 @@ pre, code {
     }
 }
 
+.content p img.img-narrow,  
+.content img.img-narrow {  
+  width: auto !important;  
+  max-width: 60% !important;  
+  max-height: 500px !important;  
+  display: block !important;  
+  margin-left: auto !important;  
+  margin-right: auto !important;  
+}

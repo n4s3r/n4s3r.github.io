@@ -1,0 +1,21 @@
+name: Update Credly Badges
+
+on:
+  schedule:
+    # Se ejecuta automáticamente todos los días a medianoche (UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña "Actions"
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import Credly Badges
+        uses: michaelcontento/credly2hugo-action@v1
+        with:
+          # Reemplaza esto con tu nombre de usuario de Credly
+          name: n4s3rsec
+          # Opcional: puedes personalizar las rutas de salida
+          datafile: "CredlyBadges.json"
+          imagedir: "images/CredlyBadges"

@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <article class="post">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    <h2>Mis Insignias</h2>
+    <div class="badge-grid">
+      {{ $badges := .Site.Data.CredlyBadges }}
+      {{ if $badges }}
+        {{ range $badges.badges }}
+          <div class="badge-item">
+            <a href="{{ .url }}" target="_blank" rel="noopener">
+              <img src="{{ .image_url | relURL }}" alt="{{ .name }}" title="{{ .name }}">
+            </a>
+            <p>{{ .name }}</p>
+            <p><small>{{ .issuer.name }}</small></p>
+          </div>
+        {{ end }}
+      {{ else }}
+        <p>No se encontraron insignias. Ejecuta la acción de GitHub para importarlas.</p>
+      {{ end }}
+    </div>
+  </article>
+
+  <style>
+    .badge-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .badge-item { text-align: center; }
+    .badge-item img { max-width: 100%; height: auto; }
+  </style>
+{{ end }}

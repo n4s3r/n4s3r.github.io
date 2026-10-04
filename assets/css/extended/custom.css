@@ -1,0 +1,24 @@
+/* Sobrescribir variables de color del tema */
+:root {
+  --color-highlight: #00ff41;  /* Verde brillante para enlaces y acentos */
+  --color-base: #000000;       /* Fondo negro puro */
+  --color-base-offset: #0d0d0d;/* Un negro ligeramente más claro para secciones */
+  --color-heading: #00ff41;    /* Títulos en verde brillante */
+  --color-text: #33ff33;       /* Texto principal en un verde ligeramente más suave */
+  --color-dot: #00ff41;        /* El punto decorativo también en verde */
+}
+
+/* Forzar el fondo del body y algunos contenedores */
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
+}
+
+/* Ajustes adicionales para asegurar la legibilidad y el estilo */
+a {
+  color: var(--color-highlight);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+}

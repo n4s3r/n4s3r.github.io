@@ -9,12 +9,16 @@
             <a href="https://github.com/{{ .Site.Params.github_username }}" target="_blank" title="GitHub">
                 {{ readFile "static/images/icons/github.svg" | safeHTML }}
             </a>
+{{ if .Site.Params.kofi_username }}
             <a href="https://ko-fi.com/{{ .Site.Params.kofi_username }}" target="_blank" title="Ko-fi">
                 {{ readFile "static/images/icons/ko-fi.svg" | safeHTML }}
             </a>
+{{ end }}
+{{ if .Site.Params.discord_invite }}
             <a href="https://discord.gg/{{ .Site.Params.discord_invite }}" target="_blank" title="Discord">
                 {{ readFile "static/images/icons/discord.svg" | safeHTML }}
             </a>
+{{ end }}
             <a href="mailto:{{ .Site.Params.email }}" title="Email">
                 {{ readFile "static/images/icons/email.svg" | safeHTML }}
             </a>
