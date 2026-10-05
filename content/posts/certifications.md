@@ -25,9 +25,11 @@ All links point to verifiable credentials where available.
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** – Microsoft, [2024].  
   [Credly](https://www.credly.com/badges/c035f01a-db5e-46da-9a8e-e6862947bd25)
 - **CEH – Certified Ethical Hacker** – Nascor, [2025].
+  [Certificate (censored)](/certificates/CEH_censored.pdf)
 - **CAPC – Certified AppSec Practitioner - Cloud** – The SecOps Group, [2024].  
   [Credly](https://www.credly.com/badges/4fd076e7-2814-4bc0-867e-7447360d1b9c)
 - **CAP – Certified AppSec Practitioner** – The SecOps Group, [2025].  
+  [Certificate](/certificates/CAP.pdf)
 
 ## 🏅 Badges
 
