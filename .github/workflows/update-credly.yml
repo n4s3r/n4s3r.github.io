@@ -15,7 +15,7 @@ jobs:
         uses: michaelcontento/credly2hugo-action@v1
         with:
           # Reemplaza esto con tu nombre de usuario de Credly
-          name: n4s3rsec
+          username: n4s3rsec
           # Opcional: puedes personalizar las rutas de salida
           datafile: "CredlyBadges.json"
           imagedir: "images/CredlyBadges"
